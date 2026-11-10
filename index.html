@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdulalim Ladan | Software Engineer</title>
+  <meta name="description" content="Personal portfolio of Abdulalim Ladan, a software engineer focused on backend systems, APIs and databases.">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html" aria-label="Abdulalim Ladan - home">
+        <span class="logo-mark" aria-hidden="true">AL</span>
+        <span class="logo-text">Abdulalim Ladan</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Academic Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="icon-link" href="https://github.com/AbdLim" target="_blank" rel="noopener noreferrer" aria-label="Abdulalim on GitHub (opens in a new tab)">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+        </a>
+        <button class="icon-link menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <p class="focus-badge"><span class="dot" aria-hidden="true"></span>Currently focused on backend engineering</p>
+          <p class="hero-greeting">Hello, I'm Abdulalim.</p>
+          <h1 id="hero-title">Software Engineer building useful things.</h1>
+          <p class="hero-lead">I build reliable backend systems and APIs, mostly with Python, FastAPI and PostgreSQL. I'm the CTO and backend developer at Schoola, an education technology company, based in Nigeria.</p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="projects.html">View My Work</a>
+            <a class="btn" href="about.html">About Me</a>
+          </div>
+        </div>
+        <figure class="portrait">
+          <img src="assets/images/portrait.png" alt="Placeholder portrait of Abdulalim Ladan, to be replaced with a photograph" width="400" height="500">
+          <figcaption>Abdulalim Ladan &middot; Nigeria</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section section--alt" aria-labelledby="intro-title">
+      <div class="container intro-grid">
+        <div>
+          <span class="eyebrow">Introduction</span>
+          <h2 id="intro-title">A bit about me</h2>
+        </div>
+        <div class="intro-text">
+          <p>I'm a software engineer interested in building reliable backend systems and useful software products. My experience spans mobile and backend development, with a growing focus on API design, databases, system architecture, and developer tools.</p>
+          <p>I earned a Professional Diploma in Software Engineering from NIIT in 2019, started building mobile applications in 2020, and have worked as a software engineer since 2022. Today my work is mostly backend, and I'm studying data science at MIVA Open University.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies -->
+    <section class="section" aria-labelledby="tech-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Toolbox</span>
+          <h2 id="tech-title">Technologies I work with</h2>
+          <p>The tools I reach for most often, across backend, mobile and everyday workflow.</p>
+        </div>
+        <ul class="tech-grid">
+          <li class="tech-item"><strong>Python</strong><span>Backend, scripting</span></li>
+          <li class="tech-item"><strong>FastAPI</strong><span>APIs</span></li>
+          <li class="tech-item"><strong>Node.js</strong><span>Backend runtime</span></li>
+          <li class="tech-item"><strong>Express</strong><span>Web framework</span></li>
+          <li class="tech-item"><strong>PostgreSQL</strong><span>Databases</span></li>
+          <li class="tech-item"><strong>JavaScript</strong><span>Web and Node</span></li>
+          <li class="tech-item"><strong>Flutter</strong><span>Mobile</span></li>
+          <li class="tech-item"><strong>Git</strong><span>Version control</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Featured projects -->
+    <section class="section section--alt" aria-labelledby="featured-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Selected work</span>
+          <h2 id="featured-title">Featured projects</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card project-mini">
+            <span class="status status--active">Active development</span>
+            <h3>Muzo</h3>
+            <p>A Python-based terminal music application.</p>
+            <ul class="tag-list"><li class="tag">Python</li></ul>
+          </article>
+          <article class="card project-mini">
+            <span class="status status--experimental">Experimental / hackathon</span>
+            <h3>RepoMedic</h3>
+            <p>A web platform that helps developers find, understand and fix issues in their repositories using AI-assisted analysis.</p>
+            <ul class="tag-list"><li class="tag">Node.js</li><li class="tag">FastAPI</li><li class="tag">Next.js</li><li class="tag">PostgreSQL</li></ul>
+          </article>
+          <article class="card project-mini">
+            <span class="status status--done">Built</span>
+            <h3>Phrase Chain</h3>
+            <p>An interactive word game about connecting phrases, playable in the browser.</p>
+            <ul class="tag-list"><li class="tag">Web</li><li class="tag">Game</li></ul>
+          </article>
+        </div>
+        <p style="margin-top: var(--space-5)"><a href="projects.html">See all projects &rarr;</a></p>
+      </div>
+    </section>
+
+    <!-- Closing -->
+    <section class="section" aria-labelledby="closing-title">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <h2 id="closing-title">Take a look around</h2>
+            <p>Browse the projects, or get in touch if you'd like to talk about software.</p>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="projects.html">Explore projects</a>
+            <a class="btn" href="contact.html">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Abdulalim Ladan. Built with HTML, CSS and JavaScript for COS 106, MIVA Open University.</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/AbdLim" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://aaladan.dev" target="_blank" rel="noopener noreferrer">aaladan.dev</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
