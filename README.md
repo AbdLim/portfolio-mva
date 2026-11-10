@@ -48,23 +48,6 @@ python3 -m http.server 8000
 
 Then visit http://localhost:8000.
 
-## Update content
-
-- **Profile photograph**: save your photo in `assets/images/` (e.g. `portrait.jpg`) and change the `src` of the portrait `<img>` in `index.html` from `portrait-placeholder.svg`. Update the `alt` text to describe the photo.
-- **Project screenshots**: add images to `assets/images/` and change the `src` on each project's `<img>` in `projects.html`. Keep the `alt` text meaningful.
-- **Personal information**: edit the text in the HTML files directly. Search for `PLACEHOLDER` to find the email and LinkedIn spots (`contact.html`, `index.html`) and `EMAIL_PLACEHOLDER` in `js/contact.js`.
-- **GitHub repository links**: add a button inside a project's `.project-links` div only once you have the real URL.
-- **Video**: put an MP4 file named `intro.mp4` in `assets/media/`. To use another name or format, edit the `<source>` in `about.html`. Until a file exists, the page shows a fallback message.
-
-## Deploy with GitHub Pages
-
-1. Create a GitHub repository and push this folder to it (`index.html` must be at the repository root).
-2. Go to **Settings > Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-4. After a minute your site is live at `https://<username>.github.io/<repository>/`.
-
-For a custom domain such as `aaladan.dev`, add it under Settings > Pages and configure DNS as GitHub describes.
-
 ## Notes
 
 - Planner tasks are stored in this browser only (`localStorage` key `academicPlannerTasks`). Clearing site data removes them.
